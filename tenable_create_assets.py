@@ -3,8 +3,8 @@ import json
 import pandas as pd
 
 # Step 1: Tenable.sc Credentials and Initialization
-sc_host = '192.168.87.133'
-username = 'secmanager'
+sc_host = '192.168.11.133'
+username = '123'
 password = 'password'
 sc = TenableSC(sc_host, port=8443)
 #sc.login(username, password)
@@ -186,7 +186,7 @@ import json
 import pandas as pd
 
 # Step 1: Tenable.sc Credentials and Initialization
-sc_host = '12345'
+sc_host = '192.168.00.133'
 username = '123'
 password = 'password'
 sc = TenableSC(sc_host, port=8443)
